@@ -4,12 +4,8 @@ import Lab2.Book;
 
 public class BookStore extends Book {
 	
-	Book books[] = { new Book("Java Seventh Edition", "Herbert Schildt", "007045351", 10),
-			new Book("C Programming", "Dennis Ritchie", "007045352", 7),
-			new Book("Data Structures", "Narasimha Karumanchi", "007045353", 9),
-			new Book("Operating System", "Abraham", "007045354", 5),
-			new Book("Ways of life", "John abe", "007045355", 12),
-			new Book("Java-The Complete Reference ", "Herbert Schildt", "007045356", 4) };
+	Book books[] = {new Book("Ways of life", "John abe", "45355", 12),
+			new Book("Java ", "Herbert Schildt", "45356", 4) };
 
 	public void sell(String bookTitle, int noOfCopies) {
 		boolean b = false;
