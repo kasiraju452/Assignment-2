@@ -23,7 +23,7 @@ public class BookStoreApp {
 				bs.sell("Ways of life", 1);
 				break;
 			case 3:
-				bs.order("007045355", 2);
+				bs.order("45355", 2);
 				break;
 			default:
 				return;
